@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # design by garynych 08.31.2012
+# used decoder by Jerry_Offsping
 # edited and tuned by Nibiru 05.28.2014
 
 n=1;    #set port
