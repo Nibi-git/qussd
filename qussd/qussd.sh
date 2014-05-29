@@ -87,7 +87,7 @@ echo "Open port ERROR"
 exit 1
 fi
 
-echo -e "AT+CUSD=1,"$ret",15\r\n">$F 
+echo "AT+CUSD=1,"$ret",15">$F 
 
 cat $F  | grep "+CUSD:"  > /tmp/bal &
 sleep 5
